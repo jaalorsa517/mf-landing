@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usuarios</title>
+  </head>
+  <body>
+    <main id="app">
+      <wc-landing id="lading" limit="15"></wc-landing>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      const lading = document.getElementById("lading");
+      lading?.addEventListener("userSelected", (e) => {
+        e.preventDefault()
+        console.log("Evento custom userSelected",e.detail);
+      });
+
+    </script>
+  </body>
+</html>
