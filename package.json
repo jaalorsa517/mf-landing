@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode production"
+    "build": "vite build --mode production && rm -rf dist/assets dist/index.html"
   },
   "dependencies": {
     "http-server": "^14.1.1",
