@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/*"
-  to = "*"
+  from = "/wc-landing.js"
+  to = "https://mf-landing.netlify.app/wc-landing.js"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
