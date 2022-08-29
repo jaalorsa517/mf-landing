@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "http://localhost:5173"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
