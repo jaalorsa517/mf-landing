@@ -4,8 +4,17 @@
 @import "./user.css";
 
 :host {
-  display: block;
   --color_principal: rgb(10, 166, 44);
+  --color_principal_hover: hsl(133, 61%, 94%);
+  --color_principal_hover_btn: #1e7e34;
+  --font-color_light: #fff;
+  --font-color_dark: rgb(7, 54, 7);
+  --font-family: "Roboto", sans-serif;
+  --font-size: 1rem;
+  display: block;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--font-color_dark);
 }
 
 .loader {

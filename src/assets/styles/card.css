@@ -13,7 +13,7 @@
   padding: 15px 0;
   margin: 0 0 10px 0;
   font-size: 2rem;
-  color: #fff;
+  color: var(--font-color_light);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-color: var(--color_principal);

@@ -17,11 +17,11 @@
   padding: 10px;
   list-style: none;
   border-radius: 15px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px #ccc;
   transition: background-color 0.2s ease-in-out;
 }
 .pagination__item:hover {
-  background-color: hsl(133, 61%, 94%);
+  background-color: var(--color_principal_hover);
 ;
 }
 .pagination__user {
@@ -43,13 +43,13 @@
   border-radius: 8px;
   border: none;
   outline: none;
-  color: #fff;
-  background-color: #218838;
+  color: var(--font-color_light);
+  background-color: var(--color_principal);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 .pagination__btnDetails:hover {
-  background-color: #1e7e34;
+  background-color: var(--color_principal_hover_btn);
 }
 .pagination__btnDetails:active {
   
